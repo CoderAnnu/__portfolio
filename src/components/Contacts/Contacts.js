@@ -16,6 +16,7 @@ import {
     FaInstagram,
     FaGitlab,
     FaMediumM,
+    
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
@@ -423,6 +424,12 @@ function Contacts() {
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
                             )}
+                             {/* {socialsData.gitlab && ( */}
+                                <a href="" target='_blank' rel='noreferrer' id="CssBattle" className={classes.socialIcon} >
+                                <img src="https://cdn.pixabay.com/photo/2022/03/15/06/15/code-7069550_1280.png" height="35%"/>
+
+                                </a>
+                            {/* )} */}
                         </div>
                     </div>
                 </div>
