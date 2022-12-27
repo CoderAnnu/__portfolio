@@ -177,7 +177,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Name'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -193,7 +193,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='example@gmail.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -424,11 +424,9 @@ function Contacts() {
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
                             )}
-                             {/* {socialsData.gitlab && ( */}
                                 <a href="" target='_blank' rel='noreferrer' id="CssBattle" className={classes.socialIcon} >
-                                <img src="https://raw.githubusercontent.com/CoderAnnu/portfolio/master/src/assets/svg/social/cssBattle.webp" height="35%"/>
+                                <img src="https://raw.githubusercontent.com/CoderAnnu/portfolio/master/src/assets/svg/social/cssBattle.webp" width={28}/>
                                 </a>
-                            {/* )} */}
                         </div>
                     </div>
                 </div>
