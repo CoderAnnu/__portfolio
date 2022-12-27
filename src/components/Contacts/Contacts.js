@@ -426,8 +426,7 @@ function Contacts() {
                             )}
                              {/* {socialsData.gitlab && ( */}
                                 <a href="" target='_blank' rel='noreferrer' id="CssBattle" className={classes.socialIcon} >
-                                <img src="https://cdn.pixabay.com/photo/2022/03/15/06/15/code-7069550_1280.png" height="35%"/>
-
+                                <img src="https://raw.githubusercontent.com/CoderAnnu/portfolio/master/src/assets/svg/social/cssBattle.webp" height="35%"/>
                                 </a>
                             {/* )} */}
                         </div>
